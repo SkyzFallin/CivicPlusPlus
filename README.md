@@ -15,3 +15,4 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+python city_it_contact_finder.py --input data/cities.csv
