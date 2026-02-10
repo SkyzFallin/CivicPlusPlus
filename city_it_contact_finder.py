@@ -2,6 +2,8 @@
 """
 City IT Contact + Staff Directory Finder (single-file)
 
+Author: SkyzFallin (https://github.com/SkyzFallin)
+
 Input:  CSV with columns:
   - city
   - state
@@ -36,7 +38,7 @@ import tldextract
 # ---------------------------
 # Config
 # ---------------------------
-USER_AGENT = "city-it-contact-finder/1.0 (+https://github.com/yourname/yourrepo)"
+USER_AGENT = "city-it-contact-finder/1.0 (+https://github.com/SkyzFallin/CivicPlusPlus)"
 DEFAULT_TIMEOUT = 20
 SLEEP_S = 0.35
 
