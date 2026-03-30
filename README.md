@@ -1,5 +1,7 @@
 # CivicPlusPlus
 
+> **Work in Progress** — functional but actively being developed. Expect rough edges.
+
 Finds city websites using the Civic Plus management platform, identifies staff directories, then extracts IT manager info.
 
 **Author:** [SkyzFallin](https://github.com/SkyzFallin)
