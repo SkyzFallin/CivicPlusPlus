@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" width="760" height="180">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="760" height="180" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="760" height="2" fill="url(#accent)" opacity="0.7"/>
+  <rect x="0" y="178" width="760" height="2" fill="url(#accent)" opacity="0.4"/>
+
+  <!-- City hall / building icon -->
+  <g transform="translate(90, 90)" filter="url(#glow)">
+    <!-- Roof / pediment -->
+    <polygon points="0,-45 -35,-20 35,-20" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Columns -->
+    <line x1="-25" y1="-20" x2="-25" y2="30" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-10" y1="-20" x2="-10" y2="30" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="10" y1="-20" x2="10" y2="30" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="25" y1="-20" x2="25" y2="30" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Base -->
+    <line x1="-35" y1="30" x2="35" y2="30" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Magnifying glass overlay -->
+    <circle cx="18" cy="10" r="14" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5"/>
+    <line x1="28" y1="20" x2="38" y2="32" stroke="#f59e0b" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent divider -->
+  <line x1="155" y1="40" x2="155" y2="145" stroke="#f59e0b" stroke-width="1" opacity="0.2"/>
+
+  <!-- Title -->
+  <text x="170" y="68" font-family="'Courier New', Courier, monospace" font-size="30" font-weight="bold" fill="#f59e0b" filter="url(#glow)">CivicPlusPlus</text>
+
+  <!-- Subtitle -->
+  <text x="172" y="95" font-family="'Courier New', Courier, monospace" font-size="13" fill="#8b949e">Municipal OSINT — Staff Directory Extraction</text>
+
+  <!-- Description -->
+  <text x="172" y="120" font-family="'Courier New', Courier, monospace" font-size="11" fill="#484f58">CivicPlus platform discovery  ·  IT contact enumeration  ·  CSV export</text>
+
+  <!-- Badges -->
+  <g font-family="'Courier New', Courier, monospace" font-size="9.5" font-weight="700">
+    <rect x="172" y="134" width="52" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="198" y="146" fill="#f59e0b" text-anchor="middle">python</text>
+    <rect x="230" y="134" width="48" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="254" y="146" fill="#6b7280" text-anchor="middle">OSINT</text>
+    <rect x="284" y="134" width="36" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="302" y="146" fill="#6b7280" text-anchor="middle">WIP</text>
+  </g>
+
+  <!-- Author -->
+  <text x="172" y="166" font-family="'Courier New', Courier, monospace" font-size="11" fill="#484f58">SkyzFallin</text>
+</svg>
