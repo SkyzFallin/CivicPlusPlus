@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="CivicPlusPlus Banner" width="100%"/>
+</p>
+
 # CivicPlusPlus
 
 > **Work in Progress** — functional but actively being developed. Expect rough edges.
