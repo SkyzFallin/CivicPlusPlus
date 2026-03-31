@@ -2,11 +2,13 @@
   <img src="banner.svg" alt="CivicPlusPlus Banner" width="100%"/>
 </p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![OSINT](https://img.shields.io/badge/OSINT-FF6F00?style=flat-square&logo=searxng&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Status: WIP](https://img.shields.io/badge/Status-WIP-yellow?style=flat-square)
-![Author](https://img.shields.io/badge/Author-SkyzFallin-ce9178?style=flat-square&logo=github&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/OSINT-FF6F00?style=flat-square&logo=searxng&logoColor=white" alt="OSINT"/>
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/Status-WIP-yellow?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/Author-SkyzFallin-ce9178?style=flat-square&logo=github&logoColor=white" alt="Author"/>
+</p>
 
 # CivicPlusPlus
 
